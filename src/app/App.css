@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+html, body, #root {
+  height: 100%;
+  width:  100%;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.drawer-left-m{
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.categoria-container, .gastos-container {
+    /* min-height: 500px; */
+    /* min-width: 500px; */
+    margin: 20px;
+    text-align: 'center';
+    display: 'grid';
+    grid-template-rows: 20em 1fr;
+    grid-template-columns: 1fr;
+
+}
+.categoria-header, .gastos-header {
+  grid-row: 1;
+  grid-column: 1;
+}
+.categoria-body, .gastos-body {
+  /* min-height: 200px;
+  min-width: 100px; */
+  grid-row: 2;
+  grid-column: 1;
+  padding: 15px;
+}
+.categoria-content {
+  
+}
+#nprogress .bar {
+  z-index: 1300 !important;
+  background: white !important;
+}
+#nprogress .spinner {
+  z-index: 1300 !important;
+}
+.appbar-img  {
+  display: flex;
+  justify-content: center;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3em 1fr;
+}
+
+.main-container svg {
+  color: black;
+  fill: black !important;
+}
+
+.main-router {
+  grid-column: 1;
+  grid-row: 2;
+}
+.main-appbar {
+  grid-column: 1;
+}
+.custom-modal{
+  height: 100%;
+  width: 100%;
+  max-height: none;
+  max-width: none;
+}
+.creditoClass {
+  background: rgb(177, 250, 177);
+
+}
+.debitoClass {
+  background: rgb(253, 222, 222);
+}
+
